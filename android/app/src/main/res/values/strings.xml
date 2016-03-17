@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">decepticon</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_again">Password Again</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_line1">Line 1</string>
+    <string name="hint_line2">Line 2</string>
+    <string name="hint_city">City</string>
+    <string name="hint_state">State</string>
+    <string name="hint_url">URL</string>
+    <string name="hint_description">Description</string>
+    <string name="btn_sign_up">Login</string>
+    <string name="btn_add_owner">Add Owner</string>
+    <string name="btn_register">Sign Up </string>
+    <string name="btn_aadhar">Scan Aadhar QR code</string>
+    <string name="btn_add_gym">Add Gym</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="err_msg_name">Enter the name</string>
+    <string name="err_msg_phone">Enter valid phone</string>
+    <string name="err_msg_password_again">Password do not match</string>
+    <string name="tv_owner">Owner</string>
+    <string name="tv_address">Address</string>
+</resources>
