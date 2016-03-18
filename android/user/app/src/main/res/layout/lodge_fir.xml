@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tb"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:layout_below="@id/tb"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lodge F.I.R"
+        android:id="@+id/tv_fir"
+        android:textSize="40sp"
+        android:gravity="center"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_fir"
+        android:layout_marginTop="30dp"
+        android:id="@+id/bTypeCrime"
+        android:text="Type Of Crime"
+        android:spinnerMode="dropdown"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/et_desc"
+        android:layout_below="@+id/bTypeCrime"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Description of crime"/>
+
+    <Button android:id="@+id/btn_attach_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Attach image(if any)"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/et_desc"
+        android:layout_marginTop="16dp"
+        android:onClick="loadImagefromGallery"
+        android:textColor="@android:color/white"/>
+
+    <Button android:id="@+id/btn_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="submit"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/btn_attach_image"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>
